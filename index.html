@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Website</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- navbar -->
+    <nav class="navbar">
+        <div class="logo">ADVENTURE</div>
+        <ul class="nav-links">
+            <li class="active"> <a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="">Contact</a></li>
+        </ul>
+        <img src="images/mnu-btn.png" class="menu-btn" alt="menu">
+</nav>
+
+    <!-- header -->
+    <header>
+        <div class="header-content">
+            <h2>Explore The World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- events -->
+     <section>
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/img5.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>“Life is either a daring adventure or nothing. Security does not exist in nature, nor do the children of men as a whole experience it. Avoiding danger is no safer in the long run than exposure.”</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="images/img4.jpg" alt="">
+                <h4>Adventure Holidays</h4>
+                <p>“Life is a fatal adventure. It can only have one end. So why not make it as far-ranging and free as possible” -Thornton Wilder</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+
+     <!-- explore -->
+     </section>
+     <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE BEAUTYFUL WORLD</h1>
+            <div class="line"></div>
+            <p>“Life is not a journey to the grave with the intention of arriving safely in a pretty and well-preserved body, but rather to skid in broadside, thoroughly used up, totally worn out, and loudly proclaiming – WOW – What a Ride!”</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+     </section>
+     
+    <!-- tours -->
+     <section class="tours">
+        <section class="row">
+            <section class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>“Do not go where the path may lead, go instead where there is no path and leave a trail.” -Ralph Waldo Emerson</p>
+                <a href="#" class="ctn">Learn More</a>
+            </section>
+            <section class="col image-col">
+                <section class="image-gallery">
+                    <img src="images/img3.jpg" alt="">
+                    <img src="images/img10.jpg" alt="">
+                    <img src="images/img6.jpg" alt="">
+                    <img src="images/img7.jpg" alt="">
+                </section>
+            </section>
+        </section>
+     </section>
+
+     <!-- footer -->
+     <section class="footer">
+        <p>123 Fifthn Avenue, NY 101060, New York, USA| Phone:800-900-587 | Email: tourist@gmail.com</p>
+        <p>Copyright @ 2025 Outdoor Adventure</p>
+     </section>
+
+   <script>
+    const menuBtn = document.querySelector('.menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+    menuBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu');
+  });
+</script>
+</body>
+</html>
